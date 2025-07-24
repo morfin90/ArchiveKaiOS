@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/timeText"
+        android:text="00:00"
+        android:textSize="48sp"
+        android:textColor="#FFF"
+        android:layout_centerInParent="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/dateText"
+        android:text="Monday, January 1"
+        android:textSize="18sp"
+        android:textColor="#AAA"
+        android:layout_below="@id/timeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
